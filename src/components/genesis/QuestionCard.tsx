@@ -41,8 +41,8 @@ export function QuestionCard({ question, selected, onSelect }: Props) {
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.35, delay: 0.08 * i }}
-              whileHover={locked ? undefined : { x: 6 }}
-              whileTap={locked ? undefined : { scale: 0.985 }}
+              whileHover={locked ? {} : { x: 6 }}
+              whileTap={locked ? {} : { scale: 0.985 }}
               aria-label={`Option ${LETTERS[i]}: ${option}`}
               className={cn(
                 "group relative flex items-center gap-4 border border-border bg-card/60 px-4 py-4 text-left backdrop-blur-sm transition-colors md:px-6 md:py-6",

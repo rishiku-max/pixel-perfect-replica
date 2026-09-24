@@ -11,7 +11,7 @@ export function QuizScreen({ onComplete }: { onComplete: (score: number) => void
   const [selected, setSelected] = useState<number | null>(null);
   const [score, setScore] = useState(0);
 
-  const question = round1Questions[index];
+  const question = round1Questions[index] ?? round1Questions[0]!;
   const isLast = index === round1Questions.length - 1;
 
   const select = useCallback(
