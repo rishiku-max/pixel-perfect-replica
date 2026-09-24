@@ -3,7 +3,7 @@ import { useMemo } from "react";
 
 type Props = {
   /** hue accent for glowing orbs */
-  variant?: "blue" | "red" | "green" | "yellow";
+  variant?: "blue" | "red" | "green" | "yellow" | "violet";
   particles?: number;
 };
 
@@ -12,6 +12,7 @@ const accentMap = {
   red: "var(--g-red)",
   green: "var(--g-green)",
   yellow: "var(--g-yellow)",
+  violet: "var(--g-violet)",
 };
 
 export function AnimatedBackground({ variant = "blue", particles = 18 }: Props) {
