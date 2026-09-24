@@ -1,11 +1,3 @@
-# Pixel Perfect Replica
-
-Implement exactly the screenshot and nothing else
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
 Continue developing this project in the [Lovable editor](https://lovable.dev/projects/43bb0840-7cd3-4da5-bc6b-53be642cd06a).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
